@@ -1,18 +1,19 @@
 baseurl = "http://trusz.github.io"
 title = "Quick Thoughts"
-languageCode = "en-us"
+languageCode = "en-gb"
 theme = "terminal"
 paginate = 5
+publishDir="docs"
 
 [params]
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
 
   # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
+  themeColor = "green"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 4
 
   # show selector to switch language
   showLanguageSelector = false
@@ -21,7 +22,7 @@ paginate = 5
   fullWidthTheme = false
 
   # center theme with default width
-  centerTheme = false
+  centerTheme = true
 
   # set a custom favicon (default is a `themeColor` square)
   # favicon = "favicon.ico"
@@ -33,8 +34,8 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
-    subtitle = "A simple, retro theme for Hugo"
+    title = "Quick Thoughts"
+    subtitle = "On Software Engineering and Other Stuff"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
@@ -42,7 +43,7 @@ paginate = 5
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "Quick Thoughts"
       logoHomeLink = "/"
 
     [languages.en.menu]
@@ -51,6 +52,10 @@ paginate = 5
         name = "About"
         url = "/about"
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        identifier = "posts"
+        name = "Posts"
+        url = "/"
+    #   [[languages.en.menu.main]]
+    #     identifier = "showcase"
+    #     name = "Showcase"
+    #     url = "/showcase"
