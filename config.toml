@@ -1,61 +1,60 @@
 baseurl = "http://trusz.github.io"
 title = "Quick Thoughts"
 languageCode = "en-gb"
-theme = "terminal"
+theme = "hugo-notepadium"
 paginate = 5
 publishDir="docs"
 
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = "XXX"
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+[markup.highlight]
+codeFences = true
+noClasses = false
+
+[markup.goldmark.renderer]
+unsafe = true  # enable raw HTML in Markdown
+
 [params]
-  # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
+style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
+# dateFormat = "Monday, January 2, 2006"  # if unset, default is "2006-01-02"
+logo = ""  # if you have a logo png
+slogan = "Software Engineering and Other Stuff"
+license = ""  # CC License
+fullRss = false # Puts entire HTML post into rss 'description' tag. If unset, default is false.
 
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "green"
+[params.comments]
+enable = false  # En/Disable comments globally, default: false. You can always enable comments on per page.
 
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 4
+[params.math]
+enable = false  # optional: true, false. Enable globally, default: false. You can always enable math on per page.
+use = "katex"  # option: "katex", "mathjax". default: "katex"
 
-  # show selector to switch language
-  showLanguageSelector = false
+[params.syntax]
+use = "none"  # builtin: "prismjs", "hljs". "none" means Chroma
+theme = "xcode"
+darkTheme = "xcode-dark"  # apply this theme in dark mode
 
-  # set theme to full screen width
-  fullWidthTheme = false
+[params.share]
+enable = false
+addThisId = ""
+inlineToolId = ""
 
-  # center theme with default width
-  centerTheme = true
+[params.nav]
+showCategories = true       # /categories/
+showTags = true             # /tags/
 
-  # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+# custom navigation items
 
-  # set all headings to their default size (depending on browser settings)
-  # it's set to `true` by default
-  # oneHeadingSize = false
+[[params.nav.custom]]
+title = "About"
+url = "/about"
 
-[languages]
-  [languages.en]
-    languageName = "English"
-    title = "Quick Thoughts"
-    subtitle = "On Software Engineering and Other Stuff"
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-
-    [languages.en.params.logo]
-      logoText = "Quick Thoughts"
-      logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "posts"
-        name = "Posts"
-        url = "/"
-    #   [[languages.en.menu.main]]
-    #     identifier = "showcase"
-    #     name = "Showcase"
-    #     url = "/showcase"
+[[params.nav.custom]]
+title = "Posts"
+url = "/"
