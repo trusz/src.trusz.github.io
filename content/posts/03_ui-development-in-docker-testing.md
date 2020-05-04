@@ -17,7 +17,7 @@ draft = false
 +++
 
 > This article is part of a series:
-> 
+>
 > 1. [UI Development in Docker — Basics](/posts/01_ui-development-in-docker-basics)
 > 2. [UI Development in Docker — CI/CD](/posts/02_ui-development-in-docker-cicd)
 > 3. UI Development in Docker — Testing
@@ -103,3 +103,6 @@ An overview of the "Testing Locally and Visually" setup
               │Container: UI                         │
               └──────────────────────────────────────┘
 ```
+
+> **Need an example?**  
+> Checkout our starter kit for [↗ React + Storybook + TypeScript](https://github.com/sprinteins/starter-kits/tree/master/react-storybook-typescript)

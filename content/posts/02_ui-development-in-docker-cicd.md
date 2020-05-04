@@ -17,7 +17,7 @@ draft = false
 +++
 
 > This article is part of a series:
-> 
+>
 > 1. [UI Development in Docker — Basics](/posts/01_ui-development-in-docker-basics)
 > 2. UI Development in Docker — CI/CD
 > 3. [UI Development in Docker — Testing](/posts/03_ui-development-in-docker-testing)
@@ -124,3 +124,6 @@ services:
 
 
 ```
+
+> **Need an example?**  
+> Checkout our starter kit for [↗ React + Storybook + TypeScript](https://github.com/sprinteins/starter-kits/tree/master/react-storybook-typescript)

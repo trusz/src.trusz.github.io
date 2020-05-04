@@ -115,3 +115,6 @@ An overview of the basic setup
               │Container: UI      │
               └───────────────────┘
 ```
+
+> **Need an example?**  
+> Checkout our starter kit for [↗ React + Storybook + TypeScript](https://github.com/sprinteins/starter-kits/tree/master/react-storybook-typescript)
