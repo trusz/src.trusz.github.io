@@ -1,14 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Quick Thoughts</title>
-    <link>http://trusz.github.io/tags/</link>
-    <description>Recent content in Tags on Quick Thoughts</description>
+    <title>Tags on My Engineering Practices</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on My Engineering Practices</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
-	<atom:link href="http://trusz.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ci/cd</title>
+      <link>/tags/ci/cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ci/cd/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>/tags/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/docker/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>dx</title>
+      <link>/tags/dx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dx/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>tdd</title>
+      <link>/tags/tdd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tdd/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>testing</title>
+      <link>/tags/testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/testing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>ui</title>
+      <link>/tags/ui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ui/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>

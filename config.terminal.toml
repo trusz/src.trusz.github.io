@@ -1,9 +1,10 @@
 baseurl = "http://trusz.github.io"
-title = "Quick Thoughts"
+title = "My Engineering Pratices"
 languageCode = "en-gb"
 theme = "terminal"
 paginate = 5
 publishDir="docs"
+summaryLength=20
 
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -34,8 +35,8 @@ publishDir="docs"
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Quick Thoughts"
-    subtitle = "On Software Engineering and Other Stuff"
+    title = "My Engineering Pratices"
+    subtitle = "Software Engineering and Other Stuff"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
@@ -43,7 +44,7 @@ publishDir="docs"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "Quick Thoughts"
+      logoText = "My Engineering Pratices"
       logoHomeLink = "/"
 
     [languages.en.menu]
