@@ -117,4 +117,4 @@ An overview of the basic setup
 ```
 
 > **Need an example?**  
-> Checkout our starter kit for [↗ React + Storybook + TypeScript](https://github.com/sprinteins/starter-kits/tree/master/react-storybook-typescript)
+> Check out our starter kit for [↗ React + Storybook + TypeScript](https://github.com/sprinteins/starter-kits/tree/master/react-storybook-typescript)

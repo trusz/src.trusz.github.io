@@ -105,4 +105,4 @@ An overview of the "Testing Locally and Visually" setup
 ```
 
 > **Need an example?**  
-> Checkout our starter kit for [↗ React + Storybook + TypeScript](https://github.com/sprinteins/starter-kits/tree/master/react-storybook-typescript)
+> Check out our starter kit for [↗ React + Storybook + TypeScript](https://github.com/sprinteins/starter-kits/tree/master/react-storybook-typescript)
