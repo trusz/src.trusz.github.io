@@ -1,8 +1,7 @@
 +++
 _title = "{{ replace .Name `-` ` ` | title }}"
 title = "UI Development in Docker — Testing"
-date = "{{ .Date }}"
-lastmod = "{{ .Date }}"
+date = 2020-05-04
 tags = ["docker", "ui", "dx", "testing", "tdd"]
 categories = ["UI Development in Docker"] 
 imgs = []
@@ -19,8 +18,8 @@ draft = false
 > This article is part of a series:
 >
 > 1. [UI Development in Docker — Basics](/posts/01_ui-development-in-docker-basics)
-> 2. [UI Development in Docker — CI/CD](/posts/02_ui-development-in-docker-cicd)
-> 3. UI Development in Docker — Testing
+> 2. UI Development in Docker — Testing
+> 3. [UI Development in Docker — CI/CD](/posts/03_ui-development-in-docker-cicd)
 
 ## Testing Locally and Visually
 
@@ -39,7 +38,7 @@ $chromium --no-sandbox --enable-automation --remote-debugging-port=9922
 
 Chromium has a limitation who can control it:
 
-* in headless mode (no visible UI), connects are allowed from any source address as the websocket listens on the wildcard IP: `0.0.0.0:9922`
+* in headless mode (no visible UI), connections are allowed from any source address as the websocket listens on the wildcard IP: `0.0.0.0:9922`
 * in non-headless mode (visible UI), only the connections from localhost are allowed as the chromium
   switches back to `127.0.0.0:9922` (or `localhost:9922`)
 

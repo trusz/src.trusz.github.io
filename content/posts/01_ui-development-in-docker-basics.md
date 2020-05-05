@@ -1,8 +1,7 @@
 +++
 _title = "{{ replace .Name `-` ` ` | title }}"
 title = "UI Development in Docker — Basics"
-date = "{{ .Date }}"
-lastmod = "{{ .Date }}"
+date = 2020-05-03
 tags = ["docker", "ui", "dx"]
 categories = ["UI Development in Docker"] 
 imgs = []
@@ -19,8 +18,8 @@ draft = false
 > This article is part of a series:
 >
 > 1. UI Development in Docker — Basics
-> 2. [UI Development in Docker — CI/CD](/posts/02_ui-development-in-docker-cicd)
-> 3. [UI Development in Docker — Testing](/posts/03_ui-development-in-docker-testing)
+> 2. [UI Development in Docker — Testing](/posts/02_ui-development-in-docker-testing)
+> 3. [UI Development in Docker — CI/CD](/posts/03_ui-development-in-docker-cicd)
 
 Back in the day I have always struggled with setting up development environments for projects.  
 It usually took hours and in some cases even days to get everything right.

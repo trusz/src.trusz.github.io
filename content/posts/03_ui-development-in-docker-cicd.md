@@ -1,8 +1,7 @@
 +++
 _title = "{{ replace .Name `-` ` ` | title }}"
 title = "UI Development in Docker — CI/CD"
-date = "{{ .Date }}"
-lastmod = "{{ .Date }}"
+date = 2020-05-05
 tags = ["docker", "ui", "dx", "ci/cd", "testing"]
 categories = ["UI Development in Docker"] 
 imgs = []
@@ -19,8 +18,8 @@ draft = false
 > This article is part of a series:
 >
 > 1. [UI Development in Docker — Basics](/posts/01_ui-development-in-docker-basics)
-> 2. UI Development in Docker — CI/CD
-> 3. [UI Development in Docker — Testing](/posts/03_ui-development-in-docker-testing)
+> 2. [UI Development in Docker — Testing](/posts/02_ui-development-in-docker-testing)
+> 3. UI Development in Docker — CI/CD
 
 ## Testing in CI/CD Pipeline
 
