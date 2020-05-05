@@ -1,5 +1,5 @@
 baseurl = "http://trusz.github.io"
-title = "My Engineering Practices"
+title = "What I know"
 languageCode = "en-gb"
 theme = "hugo-notepadium"
 paginate = 5
