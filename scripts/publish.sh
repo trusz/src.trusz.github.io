@@ -5,8 +5,12 @@ set -e
 
 printf "\033[0;32mPublishing updates to GitHub...\033[0m\n"
 
+rm -rf ./public/posts
+
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+
+
 
 # Go To Public folder
 cd public
