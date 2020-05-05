@@ -3,3 +3,6 @@ run:
 
 build:
 	hugo
+
+publish:
+	./scripts/publish.sh
