@@ -3,7 +3,6 @@ title = "My Engineering Practices"
 languageCode = "en-gb"
 theme = "hugo-notepadium"
 paginate = 5
-publishDir="docs"
 summaryLength=20
 enableRobotsTXT = true
 
