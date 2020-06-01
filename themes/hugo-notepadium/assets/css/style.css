@@ -1,6 +1,8 @@
 :root {
   color-scheme: light dark;
   supported-color-schemes: light dark;
+  --spacing: 8px;
+  --border-radius: calc(0.5 * var(--spacing) )
 }
 
 html {
@@ -71,10 +73,15 @@ h6 {
   font-size: 16px;
 }
 
+p {
+  margin-bottom: calc(1*var(--spacing))
+}
+
 blockquote,
 q {
   quotes: none;
   margin: 0;
+  margin-bottom: calc(2*var(--spacing));
 }
 
 mark,
@@ -105,7 +112,7 @@ pre {
   margin: 0;
   padding: 6px 16px;
   background-color: #f9fafa;
-  border-radius: 6px;
+  border-radius: var(--border-radius);
   border: 1px solid #e6e6e6;
 
   -o-tab-size: 4;
@@ -113,6 +120,7 @@ pre {
   tab-size: 4;
 
   overflow: auto;
+  margin-bottom: calc(2*var(--spacing));
 }
 
 code,
@@ -310,7 +318,7 @@ acronym {
 .note.list .item {
   width: 100%;
   margin: 5px 0 10px 0;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 .note.list .item>a:hover,
@@ -373,7 +381,7 @@ acronym {
   height: 80px;
   min-width: 80px;
   max-width: 120px;
-  border-radius: 4px;
+  border-radius: var(--border-radius);
   border: 1px solid #e6e6e6;
   margin: 5px 0 0 5px;
 }
@@ -498,14 +506,14 @@ acronym {
 .article-container {
   padding: 20px;
   border-radius: 6px;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,.12);
+  /* box-shadow: 0 12px 16px 0 rgba(0,0,0,.12); */
 }
 
 @media (max-width: 500px) {
   .note.list .item,
   .article-container {
     border-radius: 0;
-    box-shadow: none;
+    /* box-shadow: none; */
   }
 
   .note.list,
@@ -516,7 +524,7 @@ acronym {
 }
 
 .article-container {
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 .article.markdown-body {
@@ -578,7 +586,7 @@ acronym {
 
 .article.markdown-body blockquote {
   padding: .95em;
-  border-radius: 6px;
+  border-radius: var(--border-radius);
   border-left: 6px solid #fee450;
   background-color: #fbf8e8;
 }
@@ -646,7 +654,7 @@ acronym {
 }
 
 .article.markdown-body li+li {
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .article.markdown-body>*,
@@ -654,7 +662,7 @@ acronym {
 .article.markdown-body blockquote>*,
 .article.markdown-body .footnotes>* {
   margin-top: 0;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .article.markdown-body> :first-child,
