@@ -1,5 +1,5 @@
 baseurl = "http://trusz.github.io"
-title = "What I've learned"
+title = "An Engineer's Garden"
 languageCode = "en-gb"
 theme = "hugo-notepadium"
 paginate = 5
@@ -52,3 +52,7 @@ url = "/about"
 [[params.nav.custom]]
 title = "Posts"
 url = "/"
+
+[[params.nav.custom]]
+title = "Categories"
+url = "/categories"
