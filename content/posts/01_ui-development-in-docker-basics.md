@@ -1,5 +1,4 @@
 +++
-_title = "{{ replace .Name `-` ` ` | title }}"
 title = "UI Development in Docker — Basics"
 date = 2020-05-03
 tags = ["docker", "ui", "dx"]

@@ -1,5 +1,5 @@
 baseurl = "http://trusz.github.io"
-title = "An Engineer's Garden"
+title = "Tamás Rusz"
 languageCode = "en-gb"
 theme = "hugo-notepadium"
 paginate = 5
@@ -18,7 +18,7 @@ unsafe = true  # enable raw HTML in Markdown
 style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
 # dateFormat = "Monday, January 2, 2006"  # if unset, default is "2006-01-02"
 logo = ""  # if you have a logo png
-slogan = "Software Engineering and Other Stuff"
+slogan = "An Engineer's Knowledge Garden"
 license = ""  # CC License
 fullRss = false # Puts entire HTML post into rss 'description' tag. If unset, default is false.
 
@@ -56,3 +56,7 @@ url = "/"
 [[params.nav.custom]]
 title = "Categories"
 url = "/categories"
+
+[[params.nav.custom]]
+title = "Tags"
+url = "/tags"
