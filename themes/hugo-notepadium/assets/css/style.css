@@ -783,3 +783,20 @@ acronym {
   right: 10px;
   margin-bottom: -30px;
 }
+
+
+.icon {
+  fill:black;
+  height: 20px;
+  position: relative;
+  top: 4px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .icon {
+      fill: white;
+      height: 20px;
+      position: relative;
+      top: 4px;
+  }
+}
