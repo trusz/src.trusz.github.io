@@ -1,6 +1,6 @@
 +++
 title = "UI Components' File Structure"
-date = 2020-06-03
+date = 2020-06-02
 tags = ["ui", "react", "component", "structure"]
 categories = ["UI Development"] 
 imgs = []
@@ -189,7 +189,7 @@ In this folder there are required files:
   import { expect } from 'chai'
   import { startBrowser, baseUrl } from 'testing'
 
-  describe("Button", () => {
+  describe('Button', () => {
       describe('click action', () => {
           const clickTests: TestCase[] = [
               {
