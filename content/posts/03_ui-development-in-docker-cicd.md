@@ -5,7 +5,9 @@ date = 2020-05-05
 tags = ["docker", "ui", "dx", "ci/cd", "testing"]
 categories = ["UI Development"] 
 imgs = []
-cover = ""  # image show on top
+cover = "/images/ui-development-in-docker.jpg"
+coverAuthor = "Rinson Chory"
+coverUrl = "https://unsplash.com/@nessa_rin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
 readingTime = true  # show reading time after article date
 toc = true
 comments = false

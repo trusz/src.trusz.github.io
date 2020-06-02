@@ -4,7 +4,9 @@ date = 2020-06-01
 tags = ["file", "naming", "git", ]
 categories = ["General"] 
 imgs = []
-cover = ""  # image show on top
+cover = "/images/file-naming-convention.jpg"  # image show on top
+coverAuthor ="Maksym Kaharlytskyi"
+coverUrl ="https://unsplash.com/@qwitka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
 readingTime = true  # show reading time after article date
 toc = true
 comments = false

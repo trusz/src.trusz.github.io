@@ -388,6 +388,9 @@ acronym {
 
 .cover {
   width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
 }
 
 .article.header {
@@ -770,4 +773,13 @@ acronym {
 
 .article.markdown-body .lntable tr>:first-child {
   border-right: 1px dashed #e6e6e6;
+}
+
+
+.img-copyright{
+  text-align: right;
+  position: relative;
+  bottom: 50px;
+  right: 10px;
+  margin-bottom: -30px;
 }

@@ -5,7 +5,9 @@ date = 2020-05-04
 tags = ["docker", "ui", "dx", "testing", "tdd"]
 categories = ["UI Development"] 
 imgs = []
-cover = ""  # image show on top
+cover = "/images/ui-development-in-docker.jpg"
+coverAuthor = "Rinson Chory"
+coverUrl = "https://unsplash.com/@nessa_rin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
 readingTime = true  # show reading time after article date
 toc = true
 comments = false
@@ -105,3 +107,7 @@ An overview of the "Testing Locally and Visually" setup
 
 > **Need an example?**  
 > Check out our starter kit for [↗ React + Storybook + TypeScript](https://github.com/sprinteins/starter-kits/tree/master/react-storybook-typescript)
+>
+> **Next**:
+>
+> [UI Development in Docker — CI/CD](/posts/03_ui-development-in-docker-cicd)
