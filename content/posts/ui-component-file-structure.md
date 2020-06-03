@@ -25,7 +25,7 @@ src/
 └─ components/
    └─ <component>/
       ├─ index.ts                         # entrypoint
-      ├─ <componentt>.tsx                 # main component
+      ├─ <component>.tsx                  # main component
       ├─ <sub-component>.tsx              # any sub component
       ├─ <component>.stories.tsx          # stories about the main component
       ├─ <component>.spec.stories.tsx     # stories for testing purposes
@@ -72,7 +72,7 @@ src/
 └─ components/
    └─ <component>/
       ├─ index.ts                         # entrypoint
-      ├─ <componentt>.tsx                 # main component
+      ├─ <component>.tsx                  # main component
       ├─ <sub-component>.tsx              # any sub component
       ├─ <component>.stories.tsx          # stories about the main component
       ├─ <component>.spec.stories.tsx     # stories for testing purposes
