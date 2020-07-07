@@ -1,6 +1,6 @@
 +++
 title = "Monodraw Tip - Anchors"
-date = 2020-06-03
+date = 2020-06-07
 tags = ["monodraw", "tips",]
 categories = ["Tool"] 
 imgs = []
