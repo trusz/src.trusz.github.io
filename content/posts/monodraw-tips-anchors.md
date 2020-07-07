@@ -6,7 +6,7 @@ categories = ["Tool"]
 imgs = []
 cover = "/images/monodraw-tips-01-anchor.jpg"
 coverAuthor ="Simon Abrams"
-coverUrl ="https://unsplash.com/s/photos/ship-anchor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+coverUrl ="https://unsplash.com/@flysi3000"
 readingTime = true  # show reading time after article date
 toc = true
 comments = false
